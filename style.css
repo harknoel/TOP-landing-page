@@ -11,10 +11,24 @@ ul {
     padding: 0;
 }
 
+img {
+    height: 200px;
+    width: 500px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* header and nav */
+
 .header {
     background: #1f2937;
+    padding: 12px 400px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
@@ -22,7 +36,160 @@ ul {
     color: #f9faf8;
 }
 
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
 .link {
     font-size: 18px;
     color: #e5e7eb;
 }
+
+/* Text with left image */
+
+.view {
+    background: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 300px;
+    gap: 50px;
+}
+
+.main {
+    display: flex;
+}
+
+.all-text {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin-bottom: 12px;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 12px;
+}
+
+.sign-up {
+    background: #3882f6;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 12px;
+}
+
+/* Information Section */
+
+.information {
+    padding: 50px 0 150px 0;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-bottom: 32px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.box {
+    max-width: 200px;
+}
+
+.image {
+    border: 6px solid #3882f6;
+    border-radius: 4px;
+    height: 200px;
+    width: 200px;
+}
+
+.text {
+    text-align: center;
+}
+
+/* testimony section */
+
+.testimony {
+    background: #e5e7eb;
+}
+
+.quote-texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 500px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author {
+    font-weight: bolder;
+    font-size: 24px;
+    align-self: flex-end;
+}
+
+/* sign-up section */
+
+.sign-up-container {
+    padding: 100px;
+}
+
+.sign-up-section {
+    background: #3882f6;
+}
+
+.attention {
+    color: #f9faf8;
+}
+
+.product {
+    color: #e5e7eb;
+}
+
+.sign-up-section {
+    display: flex;
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 24px 56px;
+}
+
+.sign-up-btn {
+    background: #3882f6;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border: white;
+    border-radius: 12px;
+}
+
+/* .image {
+    border: 6px solid #3882f6;
+    border-radius: 4px;
+    height: 200px;
+    width: 200px;
+} */

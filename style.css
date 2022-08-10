@@ -25,7 +25,7 @@ p {
 
 .header {
     background: #1f2937;
-    padding: 12px 400px;
+    padding: 12px 300px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -137,7 +137,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 200px 500px;
+    padding: 200px 400px;
 }
 
 .quote {
@@ -156,15 +156,12 @@ p {
 /* sign-up section */
 
 .sign-up-container {
-    padding: 100px;
+    padding: 100px 300px;
 }
 
-.sign-up-section {
-    background: #3882f6;
-}
-
-.attention {
+.action {
     color: #f9faf8;
+    font-weight: bolder;
 }
 
 .product {
@@ -172,24 +169,42 @@ p {
 }
 
 .sign-up-section {
+    background: #3882f6;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     border: 2px solid white;
     border-radius: 6px;
-    padding: 24px 56px;
+    padding: 40px 56px;
 }
 
 .sign-up-btn {
     background: #3882f6;
+    border-color: #f9faf8;
+    color: #f9faf8;
+    border-radius: 4px;
+    width: 100px;
+    height: max-content;
+    padding: 5px 0px;
+    font-weight: bolder;
+}
+
+.sign-up {
+    background: #3882f6;
     color: white;
     height: 30px;
     width: 100px;
-    border: white;
     border-radius: 12px;
 }
 
-/* .image {
-    border: 6px solid #3882f6;
-    border-radius: 4px;
-    height: 200px;
-    width: 200px;
-} */
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1f2937;
+    color: #e5e7eb;
+    padding: 30px 0px;
+    font-size: 14px;
+}
